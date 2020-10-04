@@ -82,7 +82,6 @@ hr.new1 {
 }
 
 .nav-item .nav-link:hover {
-	height: 100%;
 	transition: transform .9s;
 	transform: scale(1.05);
 	border-radius: 10px;
@@ -91,7 +90,6 @@ hr.new1 {
 }
 
 .nav-item .nav-link.active {
-	height: 100%;
 	border-radius: 10px;
 	background-color: #19b5fe;
 }
