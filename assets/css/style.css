@@ -1,0 +1,209 @@
+body {
+    background-image: url("../img/bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+    font-family: helvetica;
+    overflow-x: hidden;
+}
+
+.responsive1 {
+	animation: slideIn 1.3s ease-in-out forwards;
+}
+
+.responsive2 {
+	animation: slideUp 1s ease-in-out forwards .0s;
+}
+
+.responsive3 {
+	animation: slideUp 1.2s ease-in-out forwards .0s;
+}
+
+.responsive4 {
+	animation: slideUp 1.4s ease-in-out forwards .0s;
+}
+
+.responsive5 {
+	animation: slideUp 1.6s ease-in-out forwards .0s;
+}
+
+.responsive6 {
+	animation: slideUp 1.8s ease-in-out forwards .0s;
+}
+
+.responsive7 {
+	animation: slideUp 2s ease-in-out forwards .0s;
+}
+
+.responsive8 {
+	animation: slideUp 2s ease-in-out forwards .0s;
+}
+
+.container {
+	background-color: rgba(255, 255, 255, 0.9);
+	border: 0;
+	padding: 0 100px;
+	animation: slideIn 1.5s ease-in-out forwards;
+}
+
+.ft {
+	width: 180px;
+	animation: slideIn 1.5s ease-in-out forwards;
+}
+
+.ft img {
+	border-radius: 50%;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+hr.new {
+	width: 50%;
+    border: 2px solid #cecece;
+}
+
+hr.new1 {
+	width: 15%;
+    border: 1px solid #cecece;
+}
+
+.nav {
+	border-radius: 10px;
+}
+
+.nav-item {
+	border-radius: 10px;
+	background-color: rgba(211, 211, 211, 0.5);
+	padding: 0;
+	height:100%;
+}
+
+.nav-link {
+	color: black;
+}
+
+.nav-item .nav-link:hover {
+	transition: transform .9s;
+	transform: scale(1.05);
+	border-radius: 10px;
+	color: white;
+	background-color: rgba(82, 179, 217, 0.7);
+}
+
+.nav-item .nav-link.active {
+	border-radius: 10px;
+	background-color: #19b5fe;
+}
+
+th {
+	font-size: 20px;
+}
+
+td {
+	font-size: 20px;
+}
+
+.nav li {
+	margin: 0 4px;
+}
+
+.circle-fa {
+  border-radius: 50%;
+  border: solid black;
+  line-height: 1.6em;
+  width: 1.8em;
+  height: 1.8em;
+  text-align: center;
+  display: inline-block;
+    transition:0.5s;
+}
+
+.btn-primary:hover {
+	transition: transform .9s;
+	transform: scale(1.2);
+}
+
+.vertical-alignment-helper {
+	display:table;
+	height: 100%;
+	width: 100%;
+	pointer-events:none;}
+	
+	.vertical-align-center {
+	/* To center vertically */
+	display: table-cell;
+	vertical-align: middle;
+	pointer-events:none;}
+	
+	.modal-content {
+	/* Bootstrap sets the size of the modal in the modal-dialog class, we need to inherit it */
+	width:inherit;
+	max-width:inherit; /* For Bootstrap 4 - to avoid the modal window stretching 
+	full width */
+	height:inherit;
+	/* To center horizontally */
+	margin: 0 auto;
+	pointer-events:all;}
+
+.zoom {
+	transition: transform .5s; /* Animation */
+	margin: 0 auto;
+  }
+  
+  .zoom:hover {
+	transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+  .modal-backdrop {
+	z-index: -1;
+  }
+
+  .fade-in {
+	animation: fadeIn ease 6s;
+	}
+
+	.fades {
+		animation: slideIn2 1s ease-in-out forwards;
+	}
+
+  @keyframes slideIn {
+	0% {
+	  transform: translateX(0px) scale(.5);
+	}
+	100% {
+	  transform: translateX(0px) scale(1);
+	}
+  }
+  
+  @keyframes slideIn2 {
+	0% {
+	  transform: translateX(0px) scale(.9);
+	}
+	100% {
+	  transform: translateX(0px) scale(1);
+	}
+  }
+
+  @keyframes slideUp {
+	0% {
+	  transform: translateY(300px);
+	}
+	100% {
+	  transform: translateY(0px);
+	}
+  }
+  
+  @keyframes expand {
+	0% {
+	  transform: translateX(1400px);
+	}
+	100% {
+	  transform: translateX(0px);
+	}
+  }
+
+  @keyframes fadeIn {
+	0% {opacity:0;}
+	100% {opacity:1;}
+	}
+  
